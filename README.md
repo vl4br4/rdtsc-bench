@@ -83,7 +83,6 @@ using PreciseBenchmark = benchmarking::TSCBenchmarking<true, benchmarking::Barri
 
 - **x86-64 only**: Requires TSC instruction support.
 - **Linux focused**: Uses Linux-specific functions for pinning threads and real-time scheduling. It may not compile on other systems.
-- **Not for complex scenarios**: Best suited for simple, single-threaded code snippets.
 
 ## References
 
